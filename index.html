@@ -9,10 +9,22 @@
   <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
   <link href="css/impress-demo.css" rel="stylesheet" />
+  
+  <style>
+    .yes {
+      color: red;
+      text-align: right;
+      
+    }
+    .no {
+      color: blue;
+      text-align: right;
+    }
+  </style>
 </head>
 <body class="impress-not-supported">
   <div id="impress">
-      <div class="step slide" data-x="0" data-y="0">
+    <div class="step slide" data-x="0" data-y="0">
       <q>お酒に毎月10万円以上使いますか？</q>
       <a class="yes" href="#step-5">Yes</a>
       <a class="no"  href="#step-2">No</a>
@@ -29,12 +41,12 @@
     </div>
     <div class="step slide" data-x="0" data-y="3000">
       <q>20歳以上離れてる人と付き合ったことはありますか？</q>
-      <a class="yes" href="#step-99">Yes</a>
-      <a class="no"  href="#step-99">No</a>
+      <a class="yes" href="#amami">Yes</a>
+      <a class="no"  href="#step-9">No</a>
     </div>
   
     <div class="step slide" data-x="1000" data-y="00">
-      <q>おかあちゃんにおこづかいせびりますか？<q>
+      <q>おかあちゃんにおこづかいせびりますか？</q>
       <a class="yes" href="#step-9">Yes</a>
       <a class="no"  href="#step-6">No</a>
     </div>
@@ -51,54 +63,72 @@
   
     <div class="step slide" data-x="1000" data-y="3000">
       <q>人生ノリで生きていますか？2</q>
-      <a class="yes" href="#step-99">Yes</a>
-      <a class="no"  href="#step-99">No</a>
+      <a class="yes" href="#tomoya">Yes</a>
+      <a class="no"  href="#step-9">No</a>
     </div>
   
     <div class="step slide" data-x="2000" data-y="0">
       <q>家を2回以上失ったことがありますか？</q>
-      <a class="yes" href="#step-6">Yes</a>
-      <a class="no"  href="#step-10">No</a>
+      <a class="yes" href="#step-10">Yes</a>
+      <a class="no"  href="#step-13">No</a>
     </div>
     <div class="step slide" data-x="2000" data-y="1000">
       <q>マッチングアプリで30人以上会ったことがありますか？</q>
-      <a class="yes" href="#step-11">Yes</a>
+      <a class="yes" href="#step-15">Yes</a>
       <a class="no"  href="#step-6">No</a>
     </div>
     <div class="step slide" data-x="2000" data-y="2000">
       <q>寺修行したことがありますか？</q>
       <a class="yes" href="#step-12">Yes</a>
-      <a class="no"  href="#step-8">No</a>
+      <a class="no"  href="#step-16">No</a>
     </div>
     <div class="step slide" data-x="2000" data-y="3000">
       <q>年齢=彼氏or彼女いない歴ですか？</q>
-      <a class="yes" href="#step-99">Yes</a>
-      <a class="no"  href="#step-99">No</a>
+      <a class="yes" href="#kaho">Yes</a>
+      <a class="no"  href="#step-13">No</a>
     </div>
 
     <div class="step slide" data-x="3000" data-y="0">
       <q>高校を中退しホテルの調理場で働いたことがありますか？</q>
-      <a class="yes" href="#step-99">Yes</a>
-      <a class="no"  href="#step-99">No</a>
+      <a class="yes" href="#step-14">Yes</a>
+      <a class="no"  href="#step-10">No</a>
     </div>
     <div class="step slide" data-x="3000" data-y="1000">
       <q>週7でジムに通い、格好良い身体を競う大会に出場したいと思いますか？</q>
-      <a class="yes" href="#step-99">Yes</a>
-      <a class="no"  href="#step-99">No</a>
+      <a class="yes" href="#step-11">Yes</a>
+      <a class="no"  href="#step-15">No</a>
     </div>
     <div class="step slide" data-x="3000" data-y="2000">
       <q>プロテインはお好きですか？</q>
-      <a class="yes" href="#step-99">Yes</a>
-      <a class="no"  href="#step-99">No</a>
+      <a class="yes" href="#step-16">Yes</a>
+      <a class="no"  href="#step-12">No</a>
     </div>
     <div class="step slide" data-x="3000" data-y="3000">
       <q>大学入学直前に『俺はたるんでいる』思い立ち髪を染めた次の日に五厘刈りの坊主にすることは理解できますか？</q>
-      <a class="yes" href="#step-99">Yes</a>
-      <a class="no"  href="#step-99">No</a>
+      <a class="yes" href="#kaiki">Yes</a>
+      <a class="no"  href="#step-1">No</a>
     </div>
-    
-    <div id="step-99" class="step" data-x="1500" data-y="1500" data-scale="5">
+  
+    <div id="amami" class="step slide result" data-x="0" data-y="4000">
+      <q>あまみタイプ</q>
+      <a class="back" href="#overview">戻る</a>
     </div>
+    <div id="tomoya" class="step slide result" data-x="1000" data-y="4000">
+      <q>ともやタイプ</q>
+      <a class="back" href="#overview">戻る</a>
+    </div>
+    <div id="kaho" class="step slide result" data-x="2000" data-y="4000">
+      <q>かほタイプ</q>
+      <a class="back" href="#overview">戻る</a>
+    </div>
+    <div id="kaiki" class="step slide result" data-x="3000" data-y="4000">
+      <q>かいきタイプ</q>
+      <a class="back" href="#overview">戻る</a>
+    </div>
+
+    <div id="overview" class="step" data-x="2000" data-y="2000" data-scale="6">
+    </div>
+
   </div>
 
 </body>
