@@ -816,6 +816,10 @@
             }
         }, false );
 
+        window.addEventListener('touchmove', function(event) {
+            event.preventDefault();
+        });
+
         // Rescale presentation when window is resized
         window.addEventListener( "resize", throttle( function() {
 
