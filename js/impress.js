@@ -813,7 +813,7 @@
                     window.location.href = document.querySelector(".step.active a.yes").href
                 }
             } else if (start < move) {
-                if ((start + 50) > move) {
+                if ((start + 50) < move) {
                     window.location.href = document.querySelector(".step.active a.no").href;
                 }
             }
