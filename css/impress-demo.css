@@ -706,8 +706,27 @@ a:focus {
     But it was fun to learn about it, wasn't it?
 */
 
-/*
-    That's all I have for you in this file.
-    Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
-    for you.
-*/
+.float-button {
+  position: absolute;
+  padding: 0;
+  border-width: 0;
+  background-color: transparent;
+}
+.float-button img{
+  width: 84px;
+  height:84px;
+  opacity: 0.5;
+}
+
+#yes {
+  margin:auto 0;
+  top: 0;
+  bottom: 0;
+  left: -10px;
+}
+#no {
+  margin:auto 0;
+  top: 0;
+  bottom: 0;
+  right:-10px;
+}
