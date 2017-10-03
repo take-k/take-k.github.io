@@ -196,8 +196,8 @@
 
     // Some default config values.
     var defaults = {
-        width: 1024,
-        height: 768,
+        width: 826,
+        height: 1240,
         maxScale: 1,
         minScale: 0,
 
@@ -798,26 +798,28 @@
         //
         // Touch handler to detect taps on the left and right side of the screen
         // based on awesome work of @hakimel: https://github.com/hakimel/reveal.js
-        var start,move;
         document.addEventListener( "touchstart", function( event ) {
-            start = event.touches[0].pageX
+            if ( event.touches.length === 1 ) {
+                var x = event.touches[ 0 ].clientX,
+                    width = window.innerWidth * 0.3,
+                    result = null;
+
+                if ( x < width ) {
+                    result = api.prev();
+                } else if ( x > window.innerWidth - width ) {
+                    result = api.next();
+                }
+
+                if ( result ) {
+                    event.preventDefault();
+                }
+            }
         }, false );
 
         window.addEventListener("touchmove", function( event ) {
             event.preventDefault();
-            move = event.changedTouches[0].pageX
         });
-        window.addEventListener("touchend", function ( event ) {
-            if (start > move) {
-                if (start > (move + 50)) {
-                    window.location.href = document.querySelector(".step.active a.yes").href
-                }
-            } else if (start < move) {
-                if ((start + 50) < move) {
-                    window.location.href = document.querySelector(".step.active a.no").href;
-                }
-            }
-        })
+
         // Rescale presentation when window is resized
         window.addEventListener( "resize", throttle( function() {
 

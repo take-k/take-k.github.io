@@ -249,6 +249,10 @@ a:focus {
     white-space: nowrap;
 }
 
+.result {
+    width: 846px;
+    height: 1240px;
+}
 .result #matching {
     position: absolute;
     width: 320px;
