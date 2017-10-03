@@ -249,6 +249,36 @@ a:focus {
     white-space: nowrap;
 }
 
+.result #matching {
+    position: absolute;
+    width: 320px;
+    height: 240px;
+}
+.result .profile-photo{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.result .profile-photo img{
+    border-radius: 250px;
+    width: 500px;
+    height: 500px;
+}
+
+.result .profile-photo .photo-title{
+    font-size: 45px;
+    margin: 20px auto;
+}
+
+.result p{
+    height: 250px;
+    padding: 40px 40px;
+    margin: 40px 40px;
+    border: 1px solid forestgreen;
+    border-radius: 10px;
+
+}
+
 /*
     And now we start to style each step separately.
 
