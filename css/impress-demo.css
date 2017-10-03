@@ -209,9 +209,10 @@ a:focus {
 .slide {
     display: block;
 
-    width: 900px;
-    height: 700px;
-    padding: 40px 60px;
+    width: 720px;
+    height: 1080px;
+    padding: 0px 0px;
+    overflow: hidden;
 
     background-color: white;
     border: 1px solid rgba(0, 0, 0, .3);
@@ -225,6 +226,15 @@ a:focus {
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
+}
+
+.slide .photo {
+  width: 720px;
+  height: 720px;
+}
+
+.slide p {
+  padding: 40px 40px;
 }
 
 .slide q {

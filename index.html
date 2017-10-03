@@ -9,6 +9,7 @@
   <link href="//fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
   <link href="css/impress-demo.css" rel="stylesheet" />
+  <script src="js/jquery-3.2.1.min.js"></script>
   
   <style>
     .yes {
@@ -24,115 +25,23 @@
 </head>
 <body class="impress-not-supported">
   <div id="impress">
-    <div id="title" class="step" data-x="-4000" data-y="-4000" data-scale="5">
-      あなたは何タイプ？
-      <a href="#slide-1">はじめる</a>
-    </div>
-  
     <div id="slide-1" class="step slide" data-x="0" data-y="0">
-      <q>お酒に毎月10万円以上使いますか？</q>
-        <a class="yes" href="#slide-5">Yes</a>
-      <a class="no"  href="#slide-2">No</a>
-    </div>
-    <div id="slide-2" class="step slide" data-x="0" data-y="1000">
-      <q>タバコは1日に2箱吸いますか？</q>
-      <a class="yes" href="#slide-3">Yes</a>
-      <a class="no"  href="#slide-7">No</a>
-    </div>
-    <div id="slide-3" class="step slide" data-x="0" data-y="2000">
-      <q>老後は雀士になりたいですか？</q>
-      <a class="yes" href="#slide-4">Yes</a>
-      <a class="no"  href="#slide-8">No</a>
-    </div>
-    <div id="slide-4" class="step slide" data-x="0" data-y="3000">
-      <q>20歳以上離れてる人と付き合ったことはありますか？</q>
-      <a class="yes" href="#amami">Yes</a>
-      <a class="no"  href="#slide-9">No</a>
-    </div>
-  
-    <div id="slide-5" class="step slide" data-x="1000" data-y="00">
-      <q>おかあちゃんにおこづかいせびりますか？</q>
-      <a class="yes" href="#slide-9">Yes</a>
-      <a class="no"  href="#slide-6">No</a>
-    </div>
-    <div id="slide-6" class="step slide" data-x="1000" data-y="1000">
-      <q>全国大喜利大会に出たいですか？</q>
-      <a class="yes" href="#slide-2">Yes</a>
-      <a class="no"  href="#slide-7">No</a>
-    </div>
-    <div id="slide-7" class="step slide" data-x="1000" data-y="2000">
-      <q>人生ノリで生きていますか？</q>
-      <a class="yes" href="#slide-3">Yes</a>
-      <a class="no"  href="#slide-11">No</a>
-    </div>
-  
-    <div id="slide-8" class="step slide" data-x="1000" data-y="3000">
-      <q>人生ノリで生きていますか？2</q>
-      <a class="yes" href="#tomoya">Yes</a>
-      <a class="no"  href="#slide-9">No</a>
-    </div>
-  
-    <div id="slide-9" class="step slide" data-x="2000" data-y="0">
-      <q>家を2回以上失ったことがありますか？</q>
-      <a class="yes" href="#slide-10">Yes</a>
-      <a class="no"  href="#slide-13">No</a>
-    </div>
-    <div id="slide-10" class="step slide" data-x="2000" data-y="1000">
-      <q>マッチングアプリで30人以上会ったことがありますか？</q>
-      <a class="yes" href="#slide-15">Yes</a>
-      <a class="no"  href="#slide-6">No</a>
-    </div>
-    <div id="slide-11" class="step slide" data-x="2000" data-y="2000">
-      <q>寺修行したことがありますか？</q>
-      <a class="yes" href="#slide-12">Yes</a>
-      <a class="no"  href="#slide-16">No</a>
-    </div>
-    <div id="slide-12" class="step slide" data-x="2000" data-y="3000">
-      <q>年齢=彼氏or彼女いない歴ですか？</q>
-      <a class="yes" href="#kaho">Yes</a>
-      <a class="no"  href="#slide-13">No</a>
-    </div>
-
-    <div id="slide-13" class="step slide" data-x="3000" data-y="0">
-      <q>高校を中退しホテルの調理場で働いたことがありますか？</q>
-      <a class="yes" href="#slide-14">Yes</a>
-      <a class="no"  href="#slide-10">No</a>
-    </div>
-    <div id="slide-14" class="step slide" data-x="3000" data-y="1000">
-      <q>週7でジムに通い、格好良い身体を競う大会に出場したいと思いますか？</q>
-      <a class="yes" href="#slide-11">Yes</a>
-      <a class="no"  href="#slide-15">No</a>
-    </div>
-    <div id="slide-15" class="step slide" data-x="3000" data-y="2000">
-      <q>プロテインはお好きですか？</q>
-      <a class="yes" href="#slide-16">Yes</a>
-      <a class="no"  href="#slide-12">No</a>
-    </div>
-    <div id="slide-16" class="step slide" data-x="3000" data-y="3000">
-      <q>大学入学直前に『俺はたるんでいる』思い立ち髪を染めた次の日に五厘刈りの坊主にすることは理解できますか？</q>
-      <a class="yes" href="#kaiki">Yes</a>
-      <a class="no"  href="#slide-1">No</a>
+      <img class="photo" src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-9/13901410_768682063271850_6644402495274992449_n.jpg?oh=2bf5da1c46214c676ed6371caaa44c5a&oe=5A41313C">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cum dolorum earum, eos eveniet illo ipsum itaque, labore nobis obcaecati sit, tempore ullam? Aliquam animi aperiam aspernatur est impedit?</p>
     </div>
   
     <div id="amami" class="step slide result" data-x="0" data-y="4000">
       <q>あまみタイプ</q>
+      <div class="matching"></div>
+      <img class="photo" src="https://dummyimage.com/300x300/000/fff" alt="">
+      <div class="text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At delectus exercitationem magni
+        porro? Adipisci doloremque exercitationem fugit inventore iure laborum libero nemo quaerat quos recusandae
+        temporibus totam vero voluptates, voluptatum?
+      </div>
       <a class="back" href="#slide-1">戻る</a>
     </div>
-    <div id="tomoya" class="step slide result" data-x="1000" data-y="4000">
-      <q>ともやタイプ</q>
-      <a class="back" href="#slide-1">戻る</a>
-    </div>
-    <div id="kaho" class="step slide result" data-x="2000" data-y="4000">
-      <q>かほタイプ</q>
-      <a class="back" href="#slide-1">戻る</a>
-    </div>
-    <div id="kaiki" class="step slide result" data-x="3000" data-y="4000">
-      <q>かいきタイプ</q>
-      <a class="back" href="#slide-1">戻る</a>
-    </div>
-    
   </div>
-
 </body>
 
 <script src="js/impress.js"></script>
