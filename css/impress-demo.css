@@ -265,7 +265,7 @@ a:focus {
 
 .result #matching {
     position: absolute;
-  top: 80px;
+  top: 160px;
     width: 320px;
     height: 240px;
 }
