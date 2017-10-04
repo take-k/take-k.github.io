@@ -430,6 +430,15 @@
                 return false;
             }
 
+            if (el.classList[2] == "result") {
+                document.querySelector("#yes").style.display = "none"
+                document.querySelector("#no").style.display = "none"
+            } else {
+                document.querySelector("#yes").style.display = "block"
+                document.querySelector("#no").style.display = "block"
+            }
+
+
             // Sometimes it's possible to trigger focus on first link with some keyboard action.
             // Browser in such a case tries to scroll the page to make this element visible
             // (even that body overflow is set to hidden) and it breaks our careful positioning.
