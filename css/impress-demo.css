@@ -251,8 +251,17 @@ a:focus {
 
 .result {
     width: 846px;
-    height: 1240px;
+    height: 1504px;
 }
+
+.result .contents {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 1080px;
+    margin: auto 0;
+}
+
 .result #matching {
     position: absolute;
     width: 320px;
