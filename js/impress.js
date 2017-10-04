@@ -805,9 +805,9 @@
                     result = null;
 
                 if ( x < width ) {
-                    result = api.prev();
+                    result = api.goto(document.querySelector(document.querySelector( ".step.active").getAttribute("yes")))
                 } else if ( x > window.innerWidth - width ) {
-                    result = api.next();
+                    result = api.goto(document.querySelector(document.querySelector( ".step.active").getAttribute("no")))
                 }
 
                 if ( result ) {
