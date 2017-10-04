@@ -234,8 +234,19 @@ a:focus {
   object-fit: cover;
 }
 
-.slide p {
-  padding: 40px 40px;
+.slide .slide-text{
+}
+
+.slide .slide-text p {
+    padding: 40px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+    align-items: center; /* 縦方向中央揃え */
+    -webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+    justify-content: center; /* 横方向中央揃え */
+    height: 280px;
+  /*padding: 40px 40px;*/
 }
 
 .slide q {
