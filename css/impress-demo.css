@@ -762,7 +762,6 @@ a:focus {
   width: 84px;
   height:84px;
   opacity: 0.5;
-  object-fit: cover;
 }
 
 #yes {
