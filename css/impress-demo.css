@@ -231,6 +231,7 @@ a:focus {
 .slide .photo {
   width: 720px;
   height: 720px;
+  object-fit: cover;
 }
 
 .slide p {
@@ -264,6 +265,7 @@ a:focus {
 
 .result #matching {
     position: absolute;
+  top: 80px;
     width: 320px;
     height: 240px;
 }
@@ -276,6 +278,7 @@ a:focus {
     border-radius: 250px;
     width: 500px;
     height: 500px;
+    object-fit: cover;
 }
 
 .result .profile-photo .photo-title{
@@ -759,6 +762,7 @@ a:focus {
   width: 84px;
   height:84px;
   opacity: 0.5;
+  object-fit: cover;
 }
 
 #yes {
