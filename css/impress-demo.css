@@ -264,10 +264,10 @@ a:focus {
 }
 
 .result #matching {
-    position: absolute;
+  position: absolute;
   top: 160px;
-    width: 320px;
-    height: 240px;
+  width: 320px;
+  height: 240px;
 }
 .result .profile-photo{
     margin: 40px auto;
