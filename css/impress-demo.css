@@ -198,6 +198,10 @@ a:focus {
 
 .impress-enabled .step.active { opacity: 1 }
 
+.toppage{
+    object-fit: contain;
+}
+
 /*
     These 'slide' step styles were heavily inspired by HTML5 Slides:
     http://html5slides.googlecode.com/svn/trunk/styles.css
